@@ -1,0 +1,470 @@
+{
+  "currency": { "ru": "сум", "uz": "so'm" },
+  "priceNote": {
+    "ru": "Цены и комплектации указаны для примера и требуют актуализации перед публикацией.",
+    "uz": "Narxlar va komplektatsiyalar namuna sifatida keltirilgan, nashrdan oldin yangilanishi shart."
+  },
+  "models": [
+    {
+      "slug": "grandland",
+      "name": "Grandland",
+      "body": "suv",
+      "featured": true,
+      "order": 1,
+      "segment": { "ru": "Среднеразмерный кроссовер", "uz": "O'rta o'lchamli krossover" },
+      "tagline": { "ru": "Немецкий характер. Городская уверенность.", "uz": "Nemis xarakteri. Shaharda ishonch." },
+      "priceFrom": 389000000,
+      "description": {
+        "ru": "Grandland — флагманский кроссовер Opel с выразительным фронтом Opel Vizor, просторным салоном и богатым набором систем помощи водителю. Создан для узбекских дорог: большой дорожный просвет, энергоёмкая подвеска и климат-система, рассчитанная на летнюю жару.",
+        "uz": "Grandland — Opel Vizor old qismi, keng saloni va haydovchiga yordam beruvchi tizimlarning boy to'plamiga ega Opel flagman krossoveri. O'zbekiston yo'llari uchun yaratilgan: baland klirens, energiya sig'imli osma va yozgi jaziramaga mo'ljallangan klimat-tizim."
+      },
+      "highlights": [
+        { "ru": "Светодиодные фары IntelliLux LED®", "uz": "IntelliLux LED® svetodiod chiroqlar" },
+        { "ru": "Панорамная камера 360°", "uz": "360° panoramali kamera" },
+        { "ru": "Багажник 514 л", "uz": "514 l bagaj" },
+        { "ru": "Адаптивный круиз-контроль", "uz": "Adaptiv kruiz-kontrol" }
+      ],
+      "specs": {
+        "engine": { "ru": "1.6 Turbo, 1598 см³", "uz": "1.6 Turbo, 1598 sm³" },
+        "power": { "ru": "180 л.с.", "uz": "180 o.k." },
+        "torque": { "ru": "250 Н·м", "uz": "250 N·m" },
+        "transmission": { "ru": "8-ступенчатый автомат", "uz": "8 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "9,1 с", "uz": "9,1 s" },
+        "consumption": { "ru": "6,5 л / 100 км", "uz": "6,5 l / 100 km" },
+        "fuel": { "ru": "АИ-95", "uz": "AI-95" },
+        "trunk": { "ru": "514 л", "uz": "514 l" },
+        "clearance": { "ru": "200 мм", "uz": "200 mm" },
+        "seats": { "ru": "5", "uz": "5" },
+        "dimensions": { "ru": "4477 × 1856 × 1609 мм", "uz": "4477 × 1856 × 1609 mm" }
+      },
+      "trims": [
+        {
+          "name": "Edition",
+          "price": 389000000,
+          "features": [
+            { "ru": "Светодиодная оптика, 17\" диски", "uz": "Svetodiod optika, 17\" disklar" },
+            { "ru": "Двухзонный климат-контроль", "uz": "Ikki zonali klimat-kontrol" },
+            { "ru": "Мультимедиа 10\" с Apple CarPlay и Android Auto", "uz": "10\" multimedia, Apple CarPlay va Android Auto" },
+            { "ru": "Камера заднего вида, парктроники", "uz": "Orqa ko'rinish kamerasi, parktronik" }
+          ]
+        },
+        {
+          "name": "Elegance",
+          "price": 419000000,
+          "features": [
+            { "ru": "Всё оборудование Edition", "uz": "Edition jihozlarining barchasi" },
+            { "ru": "Подогрев передних сидений и руля", "uz": "Old o'rindiqlar va rulni isitish" },
+            { "ru": "Беспроводная зарядка смартфона", "uz": "Smartfonni simsiz quvvatlash" },
+            { "ru": "Электропривод двери багажника", "uz": "Bagaj qopqog'i elektr yuritmasi" }
+          ]
+        },
+        {
+          "name": "Ultimate",
+          "price": 459000000,
+          "features": [
+            { "ru": "Всё оборудование Elegance", "uz": "Elegance jihozlarining barchasi" },
+            { "ru": "IntelliLux LED® и панорамная камера 360°", "uz": "IntelliLux LED® va 360° kamera" },
+            { "ru": "Сиденья AGR с массажем", "uz": "Massajli AGR o'rindiqlar" },
+            { "ru": "Адаптивный круиз-контроль с ассистентом пробок", "uz": "Tirbandlik assistentli adaptiv kruiz-kontrol" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Чёрный Diamond", "uz": "Diamond qora" }, "hex": "#15161A" },
+        { "name": { "ru": "Серый Quartz", "uz": "Quartz kulrang" }, "hex": "#6E7379" },
+        { "name": { "ru": "Красный Hot", "uz": "Hot qizil" }, "hex": "#A81E1E" },
+        { "name": { "ru": "Синий Cobalt", "uz": "Cobalt ko'k" }, "hex": "#1F3A93" }
+      ]
+    },
+    {
+      "slug": "crossland",
+      "name": "Crossland",
+      "body": "crossover",
+      "featured": true,
+      "order": 2,
+      "segment": { "ru": "Компактный кроссовер", "uz": "Kompakt krossover" },
+      "tagline": { "ru": "Компактный снаружи, просторный внутри.", "uz": "Tashqaridan kichik, ichidan keng." },
+      "priceFrom": 279000000,
+      "description": {
+        "ru": "Crossland — практичный городской кроссовер с высокой посадкой, экономичным турбомотором 1.2 и сдвижным задним диваном. Идеальный формат для Ташкента: компактные габариты для парковки и достаточный клиренс для загородных поездок.",
+        "uz": "Crossland — baland o'rindiq, tejamkor 1.2 turbo motor va suriladigan orqa divanga ega amaliy shahar krossoveri. Toshkent uchun ideal format: parkovka uchun ixcham gabaritlar va shahar tashqarisiga safar uchun yetarli klirens."
+      },
+      "highlights": [
+        { "ru": "Расход от 5,9 л / 100 км", "uz": "Sarf 5,9 l / 100 km dan" },
+        { "ru": "Сдвижной задний диван", "uz": "Suriladigan orqa divan" },
+        { "ru": "Багажник до 520 л", "uz": "520 l gacha bagaj" },
+        { "ru": "Камера заднего вида", "uz": "Orqa ko'rinish kamerasi" }
+      ],
+      "specs": {
+        "engine": { "ru": "1.2 Turbo, 1199 см³", "uz": "1.2 Turbo, 1199 sm³" },
+        "power": { "ru": "130 л.с.", "uz": "130 o.k." },
+        "torque": { "ru": "230 Н·м", "uz": "230 N·m" },
+        "transmission": { "ru": "6-ступенчатый автомат", "uz": "6 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "9,9 с", "uz": "9,9 s" },
+        "consumption": { "ru": "5,9 л / 100 км", "uz": "5,9 l / 100 km" },
+        "fuel": { "ru": "АИ-95", "uz": "AI-95" },
+        "trunk": { "ru": "410–520 л", "uz": "410–520 l" },
+        "clearance": { "ru": "190 мм", "uz": "190 mm" },
+        "seats": { "ru": "5", "uz": "5" },
+        "dimensions": { "ru": "4217 × 1765 × 1605 мм", "uz": "4217 × 1765 × 1605 mm" }
+      },
+      "trims": [
+        {
+          "name": "Edition",
+          "price": 279000000,
+          "features": [
+            { "ru": "Кондиционер, 16\" диски", "uz": "Konditsioner, 16\" disklar" },
+            { "ru": "Мультимедиа 7\" с Bluetooth", "uz": "Bluetooth bilan 7\" multimedia" },
+            { "ru": "Круиз-контроль", "uz": "Kruiz-kontrol" },
+            { "ru": "6 подушек безопасности", "uz": "6 xavfsizlik yostiqchasi" }
+          ]
+        },
+        {
+          "name": "Elegance",
+          "price": 299000000,
+          "features": [
+            { "ru": "Всё оборудование Edition", "uz": "Edition jihozlarining barchasi" },
+            { "ru": "Климат-контроль, подогрев сидений", "uz": "Klimat-kontrol, o'rindiqlarni isitish" },
+            { "ru": "Камера заднего вида и парктроники", "uz": "Orqa kamera va parktronik" },
+            { "ru": "Рейлинги на крыше, 17\" диски", "uz": "Tomdagi reyling, 17\" disklar" }
+          ]
+        },
+        {
+          "name": "GS Line",
+          "price": 319000000,
+          "features": [
+            { "ru": "Всё оборудование Elegance", "uz": "Elegance jihozlarining barchasi" },
+            { "ru": "Двухцветная окраска, чёрная крыша", "uz": "Ikki rangli bo'yoq, qora tom" },
+            { "ru": "Спортивные сиденья и отделка салона GS", "uz": "Sport o'rindiqlar va GS salon bezagi" },
+            { "ru": "Тонированные стёкла", "uz": "Tonirlangan oynalar" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Чёрный Diamond", "uz": "Diamond qora" }, "hex": "#15161A" },
+        { "name": { "ru": "Оранжевый Voltaic", "uz": "Voltaic to'q sariq" }, "hex": "#C75213" },
+        { "name": { "ru": "Серый Quartz", "uz": "Quartz kulrang" }, "hex": "#6E7379" }
+      ]
+    },
+    {
+      "slug": "astra",
+      "name": "Astra",
+      "body": "hatch",
+      "featured": true,
+      "order": 3,
+      "segment": { "ru": "Хэтчбек", "uz": "Xetchbek" },
+      "tagline": { "ru": "Новое поколение легендарного хэтчбека.", "uz": "Afsonaviy xetchbekning yangi avlodi." },
+      "priceFrom": 329000000,
+      "description": {
+        "ru": "Astra нового поколения — это фирменный фронт Opel Vizor, цифровой кокпит Pure Panel с двумя 10-дюймовыми экранами и точная управляемость. Экономичный турбомотор и 8-ступенчатый автомат делают её комфортной и в городе, и на трассе Ташкент — Самарканд.",
+        "uz": "Yangi avlod Astra — Opel Vizor old qismi, ikkita 10 dyuymli ekranga ega Pure Panel raqamli kokpiti va aniq boshqaruv. Tejamkor turbo motor va 8 pog'onali avtomat uni shaharda ham, Toshkent — Samarqand trassasida ham qulay qiladi."
+      },
+      "highlights": [
+        { "ru": "Цифровой кокпит Pure Panel", "uz": "Pure Panel raqamli kokpiti" },
+        { "ru": "Расход от 5,4 л / 100 км", "uz": "Sarf 5,4 l / 100 km dan" },
+        { "ru": "Сиденья с сертификатом AGR", "uz": "AGR sertifikatli o'rindiqlar" },
+        { "ru": "Ассистент удержания в полосе", "uz": "Yo'l chizig'ida ushlab turish assistenti" }
+      ],
+      "specs": {
+        "engine": { "ru": "1.2 Turbo, 1199 см³", "uz": "1.2 Turbo, 1199 sm³" },
+        "power": { "ru": "130 л.с.", "uz": "130 o.k." },
+        "torque": { "ru": "230 Н·м", "uz": "230 N·m" },
+        "transmission": { "ru": "8-ступенчатый автомат", "uz": "8 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "9,7 с", "uz": "9,7 s" },
+        "consumption": { "ru": "5,4 л / 100 км", "uz": "5,4 l / 100 km" },
+        "fuel": { "ru": "АИ-95", "uz": "AI-95" },
+        "trunk": { "ru": "422 л", "uz": "422 l" },
+        "clearance": { "ru": "145 мм", "uz": "145 mm" },
+        "seats": { "ru": "5", "uz": "5" },
+        "dimensions": { "ru": "4374 × 1860 × 1470 мм", "uz": "4374 × 1860 × 1470 mm" }
+      },
+      "trims": [
+        {
+          "name": "Edition",
+          "price": 329000000,
+          "features": [
+            { "ru": "Pure Panel: два экрана 10\"", "uz": "Pure Panel: ikkita 10\" ekran" },
+            { "ru": "Светодиодные фары", "uz": "Svetodiod chiroqlar" },
+            { "ru": "Климат-контроль", "uz": "Klimat-kontrol" },
+            { "ru": "Система контроля полосы", "uz": "Yo'l chizig'i nazorati" }
+          ]
+        },
+        {
+          "name": "Elegance",
+          "price": 349000000,
+          "features": [
+            { "ru": "Всё оборудование Edition", "uz": "Edition jihozlarining barchasi" },
+            { "ru": "Подогрев руля и передних сидений", "uz": "Rul va old o'rindiqlarni isitish" },
+            { "ru": "Беспроводная зарядка, 17\" диски", "uz": "Simsiz quvvatlash, 17\" disklar" },
+            { "ru": "Камера заднего вида", "uz": "Orqa ko'rinish kamerasi" }
+          ]
+        },
+        {
+          "name": "GS Line",
+          "price": 369000000,
+          "features": [
+            { "ru": "Всё оборудование Elegance", "uz": "Elegance jihozlarining barchasi" },
+            { "ru": "Спортивная подвеска и 18\" диски", "uz": "Sport osma va 18\" disklar" },
+            { "ru": "Чёрная крыша и спойлер", "uz": "Qora tom va spoyler" },
+            { "ru": "Сиденья AGR с поддержкой", "uz": "Qo'llab-quvvatlovchi AGR o'rindiqlar" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Жёлтый Opel", "uz": "Opel sariq" }, "hex": "#E8DE18" },
+        { "name": { "ru": "Чёрный Diamond", "uz": "Diamond qora" }, "hex": "#15161A" },
+        { "name": { "ru": "Синий Cobalt", "uz": "Cobalt ko'k" }, "hex": "#1F3A93" }
+      ]
+    },
+    {
+      "slug": "mokka",
+      "name": "Mokka",
+      "body": "crossover",
+      "featured": false,
+      "order": 4,
+      "segment": { "ru": "Городской кроссовер", "uz": "Shahar krossoveri" },
+      "tagline": { "ru": "Смелый дизайн. Чистые линии.", "uz": "Jasur dizayn. Toza chiziqlar." },
+      "priceFrom": 309000000,
+      "description": {
+        "ru": "Mokka — самый смелый Opel по дизайну: фронт Opel Vizor, короткие свесы и двухцветная окраска. Компактные габариты и лёгкое рулевое управление созданы для плотного городского трафика.",
+        "uz": "Mokka — dizayn bo'yicha eng jasur Opel: Opel Vizor old qismi, qisqa osma qismlar va ikki rangli bo'yoq. Ixcham gabaritlar va yengil rul boshqaruvi zich shahar trafigi uchun yaratilgan."
+      },
+      "highlights": [
+        { "ru": "Дизайн Opel Vizor", "uz": "Opel Vizor dizayni" },
+        { "ru": "Pure Panel с двумя экранами", "uz": "Ikki ekranli Pure Panel" },
+        { "ru": "Расход от 5,8 л / 100 км", "uz": "Sarf 5,8 l / 100 km dan" },
+        { "ru": "Двухцветная окраска", "uz": "Ikki rangli bo'yoq" }
+      ],
+      "specs": {
+        "engine": { "ru": "1.2 Turbo, 1199 см³", "uz": "1.2 Turbo, 1199 sm³" },
+        "power": { "ru": "130 л.с.", "uz": "130 o.k." },
+        "torque": { "ru": "230 Н·м", "uz": "230 N·m" },
+        "transmission": { "ru": "8-ступенчатый автомат", "uz": "8 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "9,2 с", "uz": "9,2 s" },
+        "consumption": { "ru": "5,8 л / 100 км", "uz": "5,8 l / 100 km" },
+        "fuel": { "ru": "АИ-95", "uz": "AI-95" },
+        "trunk": { "ru": "350 л", "uz": "350 l" },
+        "clearance": { "ru": "165 мм", "uz": "165 mm" },
+        "seats": { "ru": "5", "uz": "5" },
+        "dimensions": { "ru": "4151 × 1791 × 1534 мм", "uz": "4151 × 1791 × 1534 mm" }
+      },
+      "trims": [
+        {
+          "name": "Edition",
+          "price": 309000000,
+          "features": [
+            { "ru": "Светодиодная оптика", "uz": "Svetodiod optika" },
+            { "ru": "Мультимедиа 7\" с Apple CarPlay", "uz": "Apple CarPlay bilan 7\" multimedia" },
+            { "ru": "Климат-контроль", "uz": "Klimat-kontrol" },
+            { "ru": "Круиз-контроль", "uz": "Kruiz-kontrol" }
+          ]
+        },
+        {
+          "name": "Elegance",
+          "price": 329000000,
+          "features": [
+            { "ru": "Всё оборудование Edition", "uz": "Edition jihozlarining barchasi" },
+            { "ru": "Pure Panel 10\" + навигация", "uz": "Pure Panel 10\" + navigatsiya" },
+            { "ru": "Подогрев сидений и руля", "uz": "O'rindiq va rulni isitish" },
+            { "ru": "Камера заднего вида", "uz": "Orqa ko'rinish kamerasi" }
+          ]
+        },
+        {
+          "name": "GS Line",
+          "price": 349000000,
+          "features": [
+            { "ru": "Всё оборудование Elegance", "uz": "Elegance jihozlarining barchasi" },
+            { "ru": "18\" диски GS, чёрная крыша", "uz": "18\" GS disklar, qora tom" },
+            { "ru": "Спортивный интерьер GS", "uz": "GS sport interyeri" },
+            { "ru": "Тонировка задних стёкол", "uz": "Orqa oynalar tonirovkasi" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Жёлтый Opel", "uz": "Opel sariq" }, "hex": "#E8DE18" },
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Чёрный Diamond", "uz": "Diamond qora" }, "hex": "#15161A" },
+        { "name": { "ru": "Красный Hot", "uz": "Hot qizil" }, "hex": "#A81E1E" }
+      ]
+    },
+    {
+      "slug": "combo-life",
+      "name": "Combo Life",
+      "body": "van",
+      "featured": false,
+      "order": 5,
+      "segment": { "ru": "Семейный минивэн", "uz": "Oilaviy miniven" },
+      "tagline": { "ru": "До 7 мест и максимум пространства.", "uz": "7 gacha o'rindiq va maksimal joy." },
+      "priceFrom": 269000000,
+      "description": {
+        "ru": "Combo Life — универсальный автомобиль для большой семьи и для бизнеса: сдвижные боковые двери, до 7 мест и трансформируемый салон с объёмом до 2 693 литров. Отличный выбор для семейных поездок и для доставки.",
+        "uz": "Combo Life — katta oila va biznes uchun universal avtomobil: suriladigan yon eshiklar, 7 gacha o'rindiq va 2 693 litrgacha transformatsiyalanadigan salon. Oilaviy sayohatlar va yetkazib berish uchun ajoyib tanlov."
+      },
+      "highlights": [
+        { "ru": "До 7 мест", "uz": "7 gacha o'rindiq" },
+        { "ru": "Две сдвижные двери", "uz": "Ikkita suriladigan eshik" },
+        { "ru": "Объём до 2 693 л", "uz": "2 693 l gacha hajm" },
+        { "ru": "Высокая посадка водителя", "uz": "Haydovchining baland o'rindig'i" }
+      ],
+      "specs": {
+        "engine": { "ru": "1.5 Diesel, 1499 см³", "uz": "1.5 Diesel, 1499 sm³" },
+        "power": { "ru": "130 л.с.", "uz": "130 o.k." },
+        "torque": { "ru": "300 Н·м", "uz": "300 N·m" },
+        "transmission": { "ru": "8-ступенчатый автомат", "uz": "8 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "11,2 с", "uz": "11,2 s" },
+        "consumption": { "ru": "5,1 л / 100 км", "uz": "5,1 l / 100 km" },
+        "fuel": { "ru": "Дизель", "uz": "Dizel" },
+        "trunk": { "ru": "597–2 693 л", "uz": "597–2 693 l" },
+        "clearance": { "ru": "190 мм", "uz": "190 mm" },
+        "seats": { "ru": "5 или 7", "uz": "5 yoki 7" },
+        "dimensions": { "ru": "4403 × 1848 × 1796 мм", "uz": "4403 × 1848 × 1796 mm" }
+      },
+      "trims": [
+        {
+          "name": "Edition",
+          "price": 269000000,
+          "features": [
+            { "ru": "Две сдвижные двери", "uz": "Ikkita suriladigan eshik" },
+            { "ru": "Кондиционер", "uz": "Konditsioner" },
+            { "ru": "Мультимедиа 8\"", "uz": "8\" multimedia" },
+            { "ru": "Задние парктроники", "uz": "Orqa parktronik" }
+          ]
+        },
+        {
+          "name": "Elegance",
+          "price": 289000000,
+          "features": [
+            { "ru": "Всё оборудование Edition", "uz": "Edition jihozlarining barchasi" },
+            { "ru": "Третий ряд сидений (7 мест)", "uz": "Uchinchi qator o'rindiqlar (7 o'rin)" },
+            { "ru": "Панорамная крыша Panorama", "uz": "Panorama tomi" },
+            { "ru": "Камера заднего вида", "uz": "Orqa ko'rinish kamerasi" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Серый Quartz", "uz": "Quartz kulrang" }, "hex": "#6E7379" },
+        { "name": { "ru": "Синий Cobalt", "uz": "Cobalt ko'k" }, "hex": "#1F3A93" }
+      ]
+    },
+    {
+      "slug": "zafira-life",
+      "name": "Zafira Life",
+      "body": "van",
+      "featured": false,
+      "order": 6,
+      "segment": { "ru": "Минивэн бизнес-класса", "uz": "Biznes-klass miniven" },
+      "tagline": { "ru": "Комфорт бизнес-класса для 8 пассажиров.", "uz": "8 nafar yo'lovchi uchun biznes-klass qulayligi." },
+      "priceFrom": 499000000,
+      "description": {
+        "ru": "Zafira Life — минивэн для корпоративных перевозок, трансферов и больших семей. Три длины кузова, до 9 мест, тихий салон и мощный дизельный двигатель. Оптимальное решение для отелей, транспортных компаний и туристических операторов.",
+        "uz": "Zafira Life — korporativ tashuvlar, transferlar va katta oilalar uchun miniven. Uch xil uzunlikdagi korpus, 9 gacha o'rindiq, tinch salon va quvvatli dizel dvigatel. Mehmonxonalar, transport kompaniyalari va turoperatorlar uchun maqbul yechim."
+      },
+      "highlights": [
+        { "ru": "До 9 мест", "uz": "9 gacha o'rindiq" },
+        { "ru": "Три варианта длины кузова", "uz": "Uch xil korpus uzunligi" },
+        { "ru": "Дизель 2.0 на 150 л.с.", "uz": "150 o.k. 2.0 dizel" },
+        { "ru": "Раздельный климат-контроль", "uz": "Alohida klimat-kontrol" }
+      ],
+      "specs": {
+        "engine": { "ru": "2.0 Diesel, 1997 см³", "uz": "2.0 Diesel, 1997 sm³" },
+        "power": { "ru": "150 л.с.", "uz": "150 o.k." },
+        "torque": { "ru": "370 Н·м", "uz": "370 N·m" },
+        "transmission": { "ru": "8-ступенчатый автомат", "uz": "8 pog'onali avtomat" },
+        "drive": { "ru": "Передний", "uz": "Oldingi" },
+        "acceleration": { "ru": "11,0 с", "uz": "11,0 s" },
+        "consumption": { "ru": "6,3 л / 100 км", "uz": "6,3 l / 100 km" },
+        "fuel": { "ru": "Дизель", "uz": "Dizel" },
+        "trunk": { "ru": "от 1 500 л", "uz": "1 500 l dan" },
+        "clearance": { "ru": "180 мм", "uz": "180 mm" },
+        "seats": { "ru": "8 или 9", "uz": "8 yoki 9" },
+        "dimensions": { "ru": "4956 × 1920 × 1890 мм", "uz": "4956 × 1920 × 1890 mm" }
+      },
+      "trims": [
+        {
+          "name": "Business",
+          "price": 499000000,
+          "features": [
+            { "ru": "8 мест, ткань премиум", "uz": "8 o'rindiq, premium mato" },
+            { "ru": "Раздельный климат-контроль", "uz": "Alohida klimat-kontrol" },
+            { "ru": "Две сдвижные двери", "uz": "Ikkita suriladigan eshik" },
+            { "ru": "Круиз-контроль", "uz": "Kruiz-kontrol" }
+          ]
+        },
+        {
+          "name": "Business Elegance",
+          "price": 549000000,
+          "features": [
+            { "ru": "Всё оборудование Business", "uz": "Business jihozlarining barchasi" },
+            { "ru": "Кожаная отделка салона", "uz": "Charmli salon bezagi" },
+            { "ru": "Навигация и камера 360°", "uz": "Navigatsiya va 360° kamera" },
+            { "ru": "Электропривод сдвижных дверей", "uz": "Suriladigan eshiklar elektr yuritmasi" }
+          ]
+        }
+      ],
+      "colors": [
+        { "name": { "ru": "Белый Summit", "uz": "Summit oq" }, "hex": "#EFEFEF" },
+        { "name": { "ru": "Чёрный Diamond", "uz": "Diamond qora" }, "hex": "#15161A" },
+        { "name": { "ru": "Серый Quartz", "uz": "Quartz kulrang" }, "hex": "#6E7379" }
+      ]
+    }
+  ],
+  "dealers": [
+    {
+      "city": { "ru": "Ташкент", "uz": "Toshkent" },
+      "name": { "ru": "Opel Центр Ташкент", "uz": "Opel Markazi Toshkent" },
+      "address": { "ru": "г. Ташкент, Юнусабадский район, ул. Амира Темура, 000", "uz": "Toshkent sh., Yunusobod tumani, Amir Temur ko'chasi, 000" },
+      "phone": "+998 (71) 200-00-00",
+      "hours": { "ru": "Пн–Сб: 09:00–19:00, Вс: 10:00–17:00", "uz": "Du–Sh: 09:00–19:00, Ya: 10:00–17:00" },
+      "services": ["showroom", "service", "parts"]
+    },
+    {
+      "city": { "ru": "Ташкент", "uz": "Toshkent" },
+      "name": { "ru": "Opel Центр Сергели", "uz": "Opel Markazi Sergeli" },
+      "address": { "ru": "г. Ташкент, Сергелийский район, ул. Янги Сергели, 000", "uz": "Toshkent sh., Sergeli tumani, Yangi Sergeli ko'chasi, 000" },
+      "phone": "+998 (71) 200-00-01",
+      "hours": { "ru": "Пн–Сб: 09:00–19:00, Вс: выходной", "uz": "Du–Sh: 09:00–19:00, Ya: dam olish kuni" },
+      "services": ["showroom", "service"]
+    },
+    {
+      "city": { "ru": "Самарканд", "uz": "Samarqand" },
+      "name": { "ru": "Opel Центр Самарканд", "uz": "Opel Markazi Samarqand" },
+      "address": { "ru": "г. Самарканд, ул. Мирзо Улугбека, 000", "uz": "Samarqand sh., Mirzo Ulug'bek ko'chasi, 000" },
+      "phone": "+998 (66) 200-00-00",
+      "hours": { "ru": "Пн–Сб: 09:00–18:00", "uz": "Du–Sh: 09:00–18:00" },
+      "services": ["showroom", "service"]
+    },
+    {
+      "city": { "ru": "Бухара", "uz": "Buxoro" },
+      "name": { "ru": "Opel Центр Бухара", "uz": "Opel Markazi Buxoro" },
+      "address": { "ru": "г. Бухара, ул. Мустакиллик, 000", "uz": "Buxoro sh., Mustaqillik ko'chasi, 000" },
+      "phone": "+998 (65) 200-00-00",
+      "hours": { "ru": "Пн–Сб: 09:00–18:00", "uz": "Du–Sh: 09:00–18:00" },
+      "services": ["showroom", "service"]
+    },
+    {
+      "city": { "ru": "Фергана", "uz": "Farg'ona" },
+      "name": { "ru": "Opel Центр Фергана", "uz": "Opel Markazi Farg'ona" },
+      "address": { "ru": "г. Фергана, ул. Алишера Навои, 000", "uz": "Farg'ona sh., Alisher Navoiy ko'chasi, 000" },
+      "phone": "+998 (73) 200-00-00",
+      "hours": { "ru": "Пн–Сб: 09:00–18:00", "uz": "Du–Sh: 09:00–18:00" },
+      "services": ["showroom", "service"]
+    },
+    {
+      "city": { "ru": "Нукус", "uz": "Nukus" },
+      "name": { "ru": "Opel Центр Нукус", "uz": "Opel Markazi Nukus" },
+      "address": { "ru": "г. Нукус, ул. Дослык, 000", "uz": "Nukus sh., Do'slik ko'chasi, 000" },
+      "phone": "+998 (61) 200-00-00",
+      "hours": { "ru": "Пн–Сб: 09:00–18:00", "uz": "Du–Sh: 09:00–18:00" },
+      "services": ["showroom", "parts"]
+    }
+  ]
+}

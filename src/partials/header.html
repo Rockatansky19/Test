@@ -1,0 +1,86 @@
+<div class="topbar">
+  <div class="container topbar__inner">
+    <nav class="topbar__links" aria-label="Служебные ссылки">
+      <a href="{{BASE}}dealers.html" data-i18n="top.dealers">Дилерские центры</a>
+      <a href="{{BASE}}service.html" data-hide-mobile data-i18n="top.service">Сервис</a>
+      <a href="{{BASE}}finance.html" data-hide-mobile data-i18n="top.finance">Финансирование</a>
+    </nav>
+    <div class="topbar__links">
+      <a class="topbar__phone" href="tel:+998712000000">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.5 2.8.6a2 2 0 0 1 1.7 2Z"/></svg>
+        <span>+998 (71) 200-00-00</span>
+      </a>
+      <div class="lang" role="group" aria-label="Язык сайта">
+        <button type="button" data-lang="ru" aria-pressed="true">Ru</button>
+        <button type="button" data-lang="uz" aria-pressed="false">Uz</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<header class="header" id="site-header">
+  <div class="container header__inner">
+    <a class="logo" href="{{BASE}}index.html" aria-label="Opel Узбекистан — на главную">
+      <img class="logo__mark" src="{{BASE}}assets/img/logo-mark.svg" width="38" height="38" alt="">
+      <span class="logo__text">
+        <span class="logo__name">OPEL</span>
+        <span class="logo__sub" data-i18n="brand.sub">Узбекистан</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="Основная навигация">
+      <ul class="nav__list">
+        <li class="nav__item nav__item--has-menu" data-menu>
+          <a class="nav__link" href="{{BASE}}models.html" data-nav="models" aria-expanded="false">
+            <span data-i18n="nav.models">Модели</span>
+            <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M1 1l5 5 5-5"/></svg>
+          </a>
+          <div class="megamenu">
+            <div class="megamenu__grid">{{MEGAMENU}}</div>
+            <div class="megamenu__foot">
+              <span class="small muted" data-i18n="nav.megafoot">Все модели доступны к заказу у официальных дилеров</span>
+              <a class="link-arrow" href="{{BASE}}models.html"><span data-i18n="nav.allmodels">Весь модельный ряд</span><span aria-hidden="true">→</span></a>
+            </div>
+          </div>
+        </li>
+        <li class="nav__item"><a class="nav__link" href="{{BASE}}finance.html" data-nav="finance" data-i18n="nav.finance">Покупка</a></li>
+        <li class="nav__item"><a class="nav__link" href="{{BASE}}service.html" data-nav="service" data-i18n="nav.service">Сервис</a></li>
+        <li class="nav__item"><a class="nav__link" href="{{BASE}}about.html" data-nav="about" data-i18n="nav.about">О бренде</a></li>
+        <li class="nav__item"><a class="nav__link" href="{{BASE}}news.html" data-nav="news" data-i18n="nav.news">Новости и акции</a></li>
+        <li class="nav__item"><a class="nav__link" href="{{BASE}}dealers.html" data-nav="dealers" data-i18n="nav.dealers">Контакты</a></li>
+      </ul>
+    </nav>
+
+    <div class="header__cta">
+      <a class="btn btn--sm" href="{{BASE}}test-drive.html" data-i18n="cta.testdrive">Тест-драйв</a>
+    </div>
+
+    <button class="burger" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Меню"><span></span></button>
+  </div>
+</header>
+
+<div class="overlay" data-overlay hidden></div>
+
+<aside class="drawer" id="drawer" aria-label="Мобильное меню">
+  <div class="drawer__head">
+    <span class="logo__name">OPEL</span>
+    <button class="drawer__close" type="button" aria-label="Закрыть меню">×</button>
+  </div>
+  <ul class="drawer__list">
+    <li>
+      <button class="drawer__link" type="button" aria-expanded="false" data-drawer-toggle>
+        <span data-i18n="nav.models">Модели</span><span aria-hidden="true">+</span>
+      </button>
+      <div class="drawer__sub">{{DRAWER_MODELS}}</div>
+    </li>
+    <li><a class="drawer__link" href="{{BASE}}finance.html" data-i18n="nav.finance">Покупка</a></li>
+    <li><a class="drawer__link" href="{{BASE}}service.html" data-i18n="nav.service">Сервис</a></li>
+    <li><a class="drawer__link" href="{{BASE}}about.html" data-i18n="nav.about">О бренде</a></li>
+    <li><a class="drawer__link" href="{{BASE}}news.html" data-i18n="nav.news">Новости и акции</a></li>
+    <li><a class="drawer__link" href="{{BASE}}dealers.html" data-i18n="nav.dealers">Контакты</a></li>
+  </ul>
+  <div class="drawer__foot">
+    <a class="btn btn--block" href="{{BASE}}test-drive.html" data-i18n="cta.testdrive">Тест-драйв</a>
+    <a class="btn btn--ghost btn--block" href="tel:+998712000000">+998 (71) 200-00-00</a>
+  </div>
+</aside>

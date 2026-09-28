@@ -1,0 +1,108 @@
+<section class="model-hero">
+  <div class="container">
+    <nav class="breadcrumbs" aria-label="Навигация по сайту" style="color:var(--ink-3)">
+      <ol>
+        <li><a href="{{BASE}}index.html" data-i18n="crumb.home">Главная</a></li>
+        <li><a href="{{BASE}}models.html" data-i18n="nav.models">Модели</a></li>
+        <li><span>{{NAME}}</span></li>
+      </ol>
+    </nav>
+    <div class="model-hero__grid">
+      <div>
+        <span class="eyebrow" data-i18n-ru="{{SEGMENT_RU}}" data-i18n-uz="{{SEGMENT_UZ}}">{{SEGMENT_RU}}</span>
+        <h1>Opel {{NAME}}</h1>
+        <p class="section__lead" data-i18n-ru="{{TAGLINE_RU}}" data-i18n-uz="{{TAGLINE_UZ}}">{{TAGLINE_RU}}</p>
+        <p class="model-hero__price"><span data-i18n="price.from">от</span> <b>{{PRICE_EL}}</b></p>
+        <dl class="model-hero__kv">{{KV}}</dl>
+        <div class="hero__actions">
+          <a class="btn" href="{{BASE}}test-drive.html?model={{SLUG}}" data-i18n="cta.testdrive">Тест-драйв</a>
+          <a class="btn btn--ghost" href="#trims" data-i18n="cta.trims">Комплектации и цены</a>
+        </div>
+      </div>
+      <div><img src="{{BASE}}assets/img/models/{{SLUG}}.svg" alt="Opel {{NAME}}" width="640" height="300"></div>
+    </div>
+  </div>
+</section>
+
+<section class="strip">
+  <div class="container strip__inner">{{HIGHLIGHTS}}</div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid--2" style="gap:clamp(28px,5vw,56px);align-items:start">
+      <div class="reveal">
+        <span class="eyebrow" data-i18n="model.about">Об автомобиле</span>
+        <h2>Opel {{NAME}}</h2>
+        <p class="section__lead" data-i18n-ru="{{DESC_RU}}" data-i18n-uz="{{DESC_UZ}}">{{DESC_RU}}</p>
+      </div>
+      <div class="reveal">
+        <span class="eyebrow" data-i18n="model.colors">Цвета кузова</span>
+        <div class="swatches" style="margin-top:16px">{{COLORS}}</div>
+        <p class="small muted" style="margin-top:16px" data-i18n="model.colorsNote">Доступность цвета зависит от комплектации и наличия автомобиля у дилера.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--soft" id="trims">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="model.trims.eyebrow">Комплектации</span>
+      <h2 data-i18n="model.trims.title">Комплектации и цены</h2>
+      <p class="section__lead" data-i18n="price.note">Цены и комплектации указаны для примера и требуют актуализации перед публикацией.</p>
+    </div>
+    <div data-tabs>
+      <div class="tabs__list" role="tablist" aria-label="Комплектации">{{TRIM_TABS}}</div>
+      {{TRIM_PANELS}}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="model.specs.eyebrow">Характеристики</span>
+      <h2 data-i18n="model.specs.title">Технические характеристики</h2>
+    </div>
+    <div class="specs reveal">{{SPECS}}</div>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head section__head--center reveal">
+      <span class="eyebrow" data-i18n="home.calc.eyebrow">Расчёт платежа</span>
+      <h2 data-i18n="model.calc.title">Кредит на Opel {{NAME}}</h2>
+    </div>
+    {{CALCULATOR}}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-panel reveal" id="lead">
+      <div>
+        <span class="eyebrow" data-i18n="model.lead.eyebrow">Заявка</span>
+        <h2 data-i18n="model.lead.title">Узнать наличие и условия</h2>
+        <p style="color:rgba(255,255,255,.75)" data-i18n="model.lead.text">Менеджер уточнит наличие комплектаций в салоне, рассчитает кредит или рассрочку и предложит дату тест-драйва.</p>
+        <ul class="cta-panel__list">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="model.lead1">Наличие автомобилей и сроки поставки</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="model.lead2">Расчёт платежа по вашим условиям</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="model.lead3">Оценка вашего автомобиля в Trade-in</span></li>
+        </ul>
+      </div>
+      {{LEAD_FORM:model}}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="section__head section__head--split reveal">
+      <h2 data-i18n="model.other">Другие модели Opel</h2>
+      <a class="link-arrow" href="{{BASE}}models.html"><span data-i18n="nav.allmodels">Весь модельный ряд</span><span aria-hidden="true">→</span></a>
+    </div>
+    <div class="grid grid--3">{{OTHER_MODELS}}</div>
+  </div>
+</section>

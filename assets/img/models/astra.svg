@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="Opel hatch placeholder illustration">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6e6e1"/>
+      <stop offset=".55" stop-color="#e6e6e1"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8dee2"/>
+      <stop offset="1" stop-color="#7f888e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="320" cy="252" rx="262" ry="12" fill="#000" opacity=".13"/>
+
+  <path d="M82,214 L116,214 A50,50 0 0 1 216,214 L404,214 A50,50 0 0 1 504,214 L552,214 Q562,214 562,198 L562,168 Q562,156 550,156 L494,156 L422,98 L262,98 L218,164 L100,168 Q74,174 74,190 L74,200 Q74,214 82,214 Z" fill="url(#paint)"/>
+  <path d="M232,160 L272,108 L412,108 L482,150 Z" fill="url(#glass)"/>
+  <rect x="342" y="108" width="6" height="50" fill="#24242a" opacity=".9"/>
+  <path d="M76,186 h24 a10,10 0 0 1 10,10 v8 a8,8 0 0 1 -10,8 h-24 z" fill="#f2e800"/>
+  <path d="M536,170 h20 a7,7 0 0 1 6,11 v9 h-26 z" fill="#c0392b" opacity=".92"/>
+  <path d="M214,190 L504,190" stroke="#000" stroke-opacity=".18" stroke-width="3"/>
+  <path d="M345,168 v20" stroke="#000" stroke-opacity=".22" stroke-width="2.5"/>
+
+    <g>
+      <circle cx="166" cy="208" r="42" fill="#111110"/>
+      <circle cx="166" cy="208" r="23.1" fill="#9a9a93"/>
+      <circle cx="166" cy="208" r="18.48" fill="#c8c8c2"/>
+      <circle cx="166" cy="208" r="7.140000000000001" fill="#43433e"/>
+    </g>
+
+    <g>
+      <circle cx="454" cy="208" r="42" fill="#111110"/>
+      <circle cx="454" cy="208" r="23.1" fill="#9a9a93"/>
+      <circle cx="454" cy="208" r="18.48" fill="#c8c8c2"/>
+      <circle cx="454" cy="208" r="7.140000000000001" fill="#43433e"/>
+    </g>
+</svg>

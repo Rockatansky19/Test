@@ -1,0 +1,53 @@
+<!--meta {"path":"models.html","nav":"models","title":"Модельный ряд Opel в Узбекистане — цены и комплектации","desc":"Все модели Opel, доступные в Узбекистане: кроссоверы Grandland, Crossland и Mokka, хэтчбек Astra, минивэны Combo Life и Zafira Life. Цены, характеристики и сравнение комплектаций.","ogImage":"hero-crossland.svg","actionbar":true} -->
+
+<section class="pagehead">
+  <div class="container">
+    <div class="pagehead__inner">
+      <nav class="breadcrumbs" aria-label="Навигация по сайту">
+        <ol>
+          <li><a href="index.html" data-i18n="crumb.home">Главная</a></li>
+          <li><span data-i18n="nav.models">Модели</span></li>
+        </ol>
+      </nav>
+      <h1 data-i18n="models.title">Модельный ряд Opel</h1>
+      <p data-i18n="models.lead">Шесть моделей для города, семьи и бизнеса. Выберите кузов, сравните характеристики и запишитесь на тест-драйв в удобном дилерском центре.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="tabs__list" role="group" aria-label="Фильтр по типу кузова" data-filter>
+      <button class="tabs__btn" type="button" aria-selected="true" data-filter-btn="all" data-i18n="models.filter.all">Все модели</button>
+      <button class="tabs__btn" type="button" aria-selected="false" data-filter-btn="suv" data-i18n="models.filter.suv">Кроссоверы</button>
+      <button class="tabs__btn" type="button" aria-selected="false" data-filter-btn="hatch" data-i18n="models.filter.hatch">Хэтчбеки</button>
+      <button class="tabs__btn" type="button" aria-selected="false" data-filter-btn="van" data-i18n="models.filter.van">Минивэны</button>
+    </div>
+    <div class="grid grid--3" data-filter-grid>{{MODEL_CARDS_ALL}}</div>
+    <p class="small muted" style="margin-top:20px" data-i18n="price.note">Цены и комплектации указаны для примера и требуют актуализации перед публикацией.</p>
+  </div>
+</section>
+
+<section class="section section--soft">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="eyebrow" data-i18n="models.compare.eyebrow">Сравнение</span>
+      <h2 data-i18n="models.compare.title">Характеристики в одной таблице</h2>
+      <p class="section__lead" data-i18n="models.compare.lead">Ключевые параметры моделей — двигатель, трансмиссия, расход топлива и объём багажника.</p>
+    </div>
+    <div style="overflow-x:auto">{{COMPARE_TABLE}}</div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta-panel reveal" id="lead">
+      <div>
+        <span class="eyebrow" data-i18n="models.help.eyebrow">Подбор</span>
+        <h2 data-i18n="models.help.title">Не знаете, какую модель выбрать?</h2>
+        <p style="color:rgba(255,255,255,.75)" data-i18n="models.help.text">Расскажите, как планируете использовать автомобиль и на какой бюджет рассчитываете, — менеджер предложит два-три подходящих варианта с расчётом платежа.</p>
+      </div>
+      {{LEAD_FORM:models}}
+    </div>
+  </div>
+</section>

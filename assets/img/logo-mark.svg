@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Placeholder brand mark">
+  <!-- Placeholder mark. Replace with the official brand asset supplied by the distributor. -->
+  <circle cx="32" cy="32" r="30" fill="#10100f"/>
+  <circle cx="32" cy="32" r="30" fill="none" stroke="#f2e800" stroke-width="3"/>
+  <path d="M14 34h13l-5 14 24-18H33l5-14z" fill="#f2e800"/>
+</svg>

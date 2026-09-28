@@ -1,0 +1,41 @@
+<!--meta {"path":"test-drive.html","nav":"testdrive","title":"Запись на тест-драйв Opel в Узбекистане","desc":"Бесплатный тест-драйв Opel в Ташкенте, Самарканде, Бухаре и Фергане. Выберите модель и дилерский центр — менеджер подтвердит время.","ogImage":"hero-grandland.svg","actionbar":false} -->
+
+<section class="pagehead">
+  <div class="container">
+    <div class="pagehead__inner">
+      <nav class="breadcrumbs" aria-label="Навигация по сайту">
+        <ol>
+          <li><a href="index.html" data-i18n="crumb.home">Главная</a></li>
+          <li><span data-i18n="cta.testdrive">Тест-драйв</span></li>
+        </ol>
+      </nav>
+      <h1 data-i18n="td.title">Бесплатный тест-драйв</h1>
+      <p data-i18n="td.lead">Проверьте автомобиль на городских улицах и трассе: разгон, работу подвески на неровностях и эффективность кондиционера в жару.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid--2" style="gap:clamp(28px,5vw,56px);align-items:start">
+      <div class="reveal">
+        <span class="eyebrow" data-i18n="td.how.eyebrow">Как это работает</span>
+        <h2 data-i18n="td.how.title">Три шага до поездки</h2>
+        <ol class="trim__features" style="margin-top:18px">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="td.step1">Заполните заявку: модель, город и удобное время</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="td.step2">Менеджер подтвердит запись и подготовит автомобиль</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg><span data-i18n="td.step3">Возьмите паспорт и водительское удостоверение — и в путь</span></li>
+        </ol>
+        <p class="small muted" style="margin-top:22px" data-i18n="td.req">Для участия в тест-драйве необходим водительский стаж не менее одного года. Маршрут и продолжительность поездки согласовываются в дилерском центре.</p>
+        <img src="assets/img/models/grandland.svg" alt="" width="640" height="300" loading="lazy" style="margin-top:24px">
+      </div>
+      <div class="reveal">
+        <div style="background:#fff;border:1px solid var(--line);border-radius:var(--radius-lg);padding:clamp(20px,3vw,32px)">
+          <h2 style="font-size:1.4rem" data-i18n="td.form.title">Заявка на тест-драйв</h2>
+          <p class="small muted" data-i18n="td.form.text">Модель можно выбрать в списке — если вы перешли со страницы модели, она уже подставлена.</p>
+          {{LEAD_FORM:testdrive}}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

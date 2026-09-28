@@ -1,0 +1,39 @@
+<form class="form" data-lead-form novalidate>
+  <input type="hidden" name="form_kind" value="{{FORM_KIND}}">
+  <div class="form__row">
+    <div class="field">
+      <label for="{{FORM_ID}}-name" data-i18n="form.name">Имя</label>
+      <input id="{{FORM_ID}}-name" name="name" type="text" autocomplete="name" required minlength="2" data-i18n-placeholder="form.namePlaceholder" placeholder="Например, Азиз">
+      <span class="field__error" data-error></span>
+    </div>
+    <div class="field">
+      <label for="{{FORM_ID}}-phone" data-i18n="form.phone">Телефон</label>
+      <input id="{{FORM_ID}}-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required data-phone placeholder="+998 (__) ___-__-__">
+      <span class="field__error" data-error></span>
+    </div>
+  </div>
+  <div class="form__row">
+    <div class="field">
+      <label for="{{FORM_ID}}-model" data-i18n="form.model">Модель</label>
+      <select id="{{FORM_ID}}-model" name="model" data-model-select>{{MODEL_OPTIONS}}</select>
+      <span class="field__error" data-error></span>
+    </div>
+    <div class="field">
+      <label for="{{FORM_ID}}-dealer" data-i18n="form.dealer">Дилерский центр</label>
+      <select id="{{FORM_ID}}-dealer" name="dealer">{{DEALER_OPTIONS}}</select>
+      <span class="field__error" data-error></span>
+    </div>
+  </div>
+  <div class="field">
+    <label for="{{FORM_ID}}-comment" data-i18n="form.comment">Комментарий</label>
+    <textarea id="{{FORM_ID}}-comment" name="comment" rows="3" data-i18n-placeholder="form.commentPlaceholder" placeholder="Удобное время для звонка, вопросы по комплектации"></textarea>
+  </div>
+  <label class="checkbox">
+    <input type="checkbox" name="consent" required>
+    <span data-i18n="form.consent">Я согласен на обработку персональных данных и получение информации о предложениях.</span>
+  </label>
+  <span class="field__error" data-error data-consent-error></span>
+  <button class="btn btn--lg btn--block" type="submit" data-i18n="form.submit">Отправить заявку</button>
+  <p class="form__note" data-i18n="form.note">Мы свяжемся с вами в течение рабочего дня. Заявка не является договором купли-продажи.</p>
+  <div class="form-status" role="status" data-form-status hidden></div>
+</form>

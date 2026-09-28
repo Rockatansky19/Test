@@ -1,0 +1,55 @@
+<div class="calc reveal" data-calc data-default-price="{{DEFAULT_PRICE}}">
+  <div class="calc__form">
+    <div class="calc__row">
+      <div class="calc__row-head">
+        <span class="calc__label" data-i18n="calc.model">Модель</span>
+      </div>
+      <select data-calc-model aria-label="Модель">{{MODEL_OPTIONS_PRICED}}</select>
+    </div>
+
+    <div class="calc__row">
+      <div class="calc__row-head">
+        <span class="calc__label" data-i18n="calc.price">Стоимость автомобиля</span>
+        <span class="calc__value" data-calc-price-label></span>
+      </div>
+      <input type="range" data-calc-price min="200000000" max="700000000" step="5000000" value="{{DEFAULT_PRICE}}" aria-label="Стоимость автомобиля">
+    </div>
+
+    <div class="calc__row">
+      <div class="calc__row-head">
+        <span class="calc__label" data-i18n="calc.down">Первоначальный взнос</span>
+        <span class="calc__value"><span data-calc-down-label></span> · <span data-calc-down-sum></span></span>
+      </div>
+      <input type="range" data-calc-down min="20" max="80" step="5" value="30" aria-label="Первоначальный взнос, %">
+    </div>
+
+    <div class="calc__row">
+      <div class="calc__row-head">
+        <span class="calc__label" data-i18n="calc.term">Срок кредита</span>
+        <span class="calc__value" data-calc-term-label></span>
+      </div>
+      <input type="range" data-calc-term min="6" max="60" step="6" value="36" aria-label="Срок кредита, месяцев">
+    </div>
+
+    <div class="calc__row" style="margin-bottom:0">
+      <div class="calc__row-head">
+        <span class="calc__label" data-i18n="calc.rate">Процентная ставка</span>
+        <span class="calc__value" data-calc-rate-label></span>
+      </div>
+      <input type="range" data-calc-rate min="0" max="34" step="1" value="22" aria-label="Процентная ставка, % годовых">
+    </div>
+  </div>
+
+  <div class="calc__result">
+    <span class="eyebrow" data-i18n="calc.monthly">Ежемесячный платёж</span>
+    <p class="calc__payment" data-calc-monthly>—</p>
+    <div class="calc__summary">
+      <div><span data-i18n="calc.sumCar">Стоимость автомобиля</span><b data-calc-total-price>—</b></div>
+      <div><span data-i18n="calc.sumDown">Первоначальный взнос</span><b data-calc-total-down>—</b></div>
+      <div><span data-i18n="calc.sumLoan">Сумма кредита</span><b data-calc-loan>—</b></div>
+      <div><span data-i18n="calc.sumInterest">Переплата</span><b data-calc-interest>—</b></div>
+    </div>
+    <p class="calc__note" data-i18n="calc.note">Расчёт предварительный и не является офертой. Итоговые условия определяет банк-партнёр после проверки документов.</p>
+    <a class="btn btn--block" href="{{BASE}}finance.html#request" style="margin-top:16px" data-i18n="calc.cta">Отправить заявку на кредит</a>
+  </div>
+</div>

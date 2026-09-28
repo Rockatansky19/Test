@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" role="img" aria-label="Opel crossover placeholder illustration">
+  <defs>
+    <linearGradient id="paint" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2e800"/>
+      <stop offset=".55" stop-color="#f2e800"/>
+      <stop offset="1" stop-color="#101010"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8dee2"/>
+      <stop offset="1" stop-color="#7f888e"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="320" cy="252" rx="262" ry="12" fill="#000" opacity=".13"/>
+
+  <path d="M84,212 L112,212 A52,52 0 0 1 216,212 L406,212 A52,52 0 0 1 510,212 L556,212 Q566,212 566,196 L566,160 Q566,148 554,148 L508,148 L442,86 L258,86 L214,158 L102,162 Q76,168 76,184 L76,198 Q76,212 84,212 Z" fill="url(#paint)"/>
+  <path d="M228,154 L268,96 L432,96 L496,142 Z" fill="url(#glass)"/>
+  <rect x="350" y="96" width="6" height="56" fill="#24242a" opacity=".9"/>
+  <path d="M78,180 h24 a10,10 0 0 1 10,10 v8 a8,8 0 0 1 -10,8 h-24 z" fill="#f2e800"/>
+  <path d="M540,162 h20 a7,7 0 0 1 6,11 v9 h-26 z" fill="#c0392b" opacity=".92"/>
+  <path d="M210,184 L518,184" stroke="#000" stroke-opacity=".18" stroke-width="3"/>
+  <path d="M353,162 v24" stroke="#000" stroke-opacity=".22" stroke-width="2.5"/>
+
+    <g>
+      <circle cx="164" cy="206" r="44" fill="#111110"/>
+      <circle cx="164" cy="206" r="24.200000000000003" fill="#9a9a93"/>
+      <circle cx="164" cy="206" r="19.36" fill="#c8c8c2"/>
+      <circle cx="164" cy="206" r="7.48" fill="#43433e"/>
+    </g>
+
+    <g>
+      <circle cx="458" cy="206" r="44" fill="#111110"/>
+      <circle cx="458" cy="206" r="24.200000000000003" fill="#9a9a93"/>
+      <circle cx="458" cy="206" r="19.36" fill="#c8c8c2"/>
+      <circle cx="458" cy="206" r="7.48" fill="#43433e"/>
+    </g>
+</svg>
